@@ -58,5 +58,3 @@ if streamlit.button('Get fruit load list:'):
       back_from_function=insert_row_snowflake(add_my_fruit)
       streamlit.text(back_from_function)
 streamlit.text("Thanks for adding Jackfruit")
-
-streamlit.stop();
